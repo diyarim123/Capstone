@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+.bg-blur {
+    background: rgba(255,255,235,0.5);
+    backdrop-filter: blur(1px);
+}
+.bg-green {
+    background-color: #495e57;
+}
+.text-green:hover {
+    color: #495e57;
+    font-weight:900;
+}
+.btn {
+    @apply bg-yellow-400 my-4 py-2 px-4 w-36 rounded-md text-black font-semibold;
+}
