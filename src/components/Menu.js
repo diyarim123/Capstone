@@ -11,7 +11,7 @@ export default function Menu() {
 
       <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 relative my-5'>
         {recipes.map((recipe) => (
-            <div className="h-[60%] my-10" key={recipe.id}>
+            <div className="h-[65%] my-10" key={recipe.id}>
                 <img className="w-full h-[70%] object-cover" src={recipe.image} alt={recipe.title} />
                 <div className="bg-green text-white h-[75%]">
                     <div className="flex justify-between py-4 px-4">
@@ -20,7 +20,7 @@ export default function Menu() {
                     </div>
                         <p className="my-2 px-4">{recipe.description}</p>
 
-                        <button className="btn mx-4 bottom-7 absolute">Order Now</button>
+                        <button className="btn mx-4 bottom-0 lg:absolute">Order Now</button>
                 </div>
             </div>
         ))}

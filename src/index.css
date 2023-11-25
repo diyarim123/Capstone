@@ -14,6 +14,9 @@ body {
 .bg-green {
     background-color: #495e57;
 }
+.text-green {
+    color: #495e57;
+}
 .text-green:hover {
     color: #495e57;
     font-weight:900;

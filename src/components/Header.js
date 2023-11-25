@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import bannerImg from "../images/restauranfood.jpg";
 
 export default function Header() {
@@ -8,7 +9,7 @@ export default function Header() {
         <h1 className='font-bold text-5xl text-yellow-400'>Little Lemon</h1>
         <span className='font-semibold text-xl'>Chicago</span>
         <p className='md:w-1/2'>We are a family owned Mediterraneran restaurant, focused on traditional recipes servered with a modern twist</p>
-        <button className='btn'>Reserve Table</button>
+        <Link className='btn' to="/reserve">Reserve Table</Link>
       </div>
 
 
